@@ -463,9 +463,7 @@ ul.row {
 }
 
 .section-hero {
-    background-size: 2px;
-    width: 90rem;
-    height: auto;
+    background-size: 90rem auto;
 }
 
 .section-hero .section-title {
@@ -484,9 +482,9 @@ ul.row {
     position: var(--header-logo-position);
 }
 
-.header-logo link {
+.header-logo a {
     display: var(--header-logo-link-display);
     position: var(--header-logo-link-position);
-    vertical-align: var(--header-logo-link-top);
-    text-align: var(--header-logo-link-left);
+    top: var(--header-logo-link-top);
+    left: var(--header-logo-link-left);
 }
